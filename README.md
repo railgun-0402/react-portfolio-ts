@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# react-portfolio-ts
+ポートフォリオアプリをTypeScriptで書き換えてみたリポジトリ。
+JavaScriptで記載したリポジトリは下記参照。
+
+[https://github.com/railgun-0402/todo_react](https://github.com/railgun-0402/react-portfolio-site)
+
+## function
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
