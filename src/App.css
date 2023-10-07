@@ -1,38 +1,104 @@
-.App {
+body {
+  font-family: Arial, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.7;
+  color: #4d4d4d;
+  background: #fff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.main-cover {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-cover .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 191, 186, 0.9);
+}
+
+.profile-thumb {
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons li a {
+  display: inline-block;
+  color: #30bfba;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.display-table {
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+.display-table-contents {
+  padding: 128px 0;
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title-text {
   color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-link {
+  position: relative;
 }
