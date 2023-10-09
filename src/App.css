@@ -102,3 +102,53 @@ h3 {
 .icon-link {
   position: relative;
 }
+
+#skills {
+  padding: 128px 0;
+  clear: both;
+}
+
+.heading {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* 省略 */
+#contact {
+  padding: 128px 0;
+  clear: both;
+}
+
+.contact {
+  background: #30bfba;
+}
+
+.contact-contents {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.btn {
+  font-family: "Space Mono", Arial, serif;
+  font-size: 16px;
+  border: none !important;
+  border-radius: 30px;
+  padding: 16px 64px;
+  text-decoration: none;
+}
+
+#contact .btn {
+  height: 54px;
+  background: #fff;
+  color: #30bfba;
+}
